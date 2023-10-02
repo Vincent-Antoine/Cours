@@ -1,6 +1,5 @@
 h1 {
     color: blue;
-    animation: color-change 2s infinite;
 }
 
 body {
@@ -9,20 +8,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-
-
-@keyframes color-change {
-    0% {
-        color: red;
-    }
-
-    50% {
-        color: green;
-    }
-
-    100% {
-        color: red;
-    }
 }
