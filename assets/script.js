@@ -1,3 +1,5 @@
+let titre = document.getElementById("title");
+
 function change() {
   titre.style.color = "yellow";
   setTimeout(() => {
